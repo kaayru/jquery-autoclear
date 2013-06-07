@@ -1,0 +1,4 @@
+jquery-autoclear
+================
+
+jQuery Autoclear
