@@ -4,7 +4,7 @@
     "description": "jQuery plugin to clear text fields on focus and manage default values.",
     "keywords": [
         "clear",
-        "input";
+        "input",
         "form"
     ],
     "version": "1.0.1",
