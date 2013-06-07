@@ -1,5 +1,5 @@
 {
-    "name": "jquery-autoclear",
+    "name": "autoclear",
     "title": "jQuery Autoclear",
     "description": "jQuery plugin to clear text fields on focus and manage default values.",
     "keywords": [
