@@ -1,0 +1,35 @@
+{
+    "name": "jquery-autoclear",
+    "title": "jQuery Autoclear",
+    "description": "jQuery plugin to clear text fields on focus and manage default values.",
+    "keywords": [
+        "clear",
+        "input"
+        "form
+    ],
+    "version": "1.0.0,
+    "author": {
+        "name": "Vincent Ballut",
+        "url": "http://www.nobodymuch.com"
+    },
+    "maintainers": [
+        {
+            "name": "Vincent Ballut",
+            "email": "kaayru@gmail.com",
+            "url": "http://www.nobodymuch.com
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        }
+    ],
+    "bugs": "https://github.com/jquery/jquery-autoclear/issues",
+    "homepage": "https://github.com/jquery/jquery-autoclear",
+    "docs": "https://github.com/jquery/jquery-autoclear",
+    "download": "http://code.jquery.com/#autoclear",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
