@@ -7,7 +7,7 @@
         "input",
         "form"
     ],
-    "version": "1.0.5",
+    "version": "1.0.6",
     "author": {
         "name": "Vincent Ballut",
         "url": "http://www.nobodymuch.com"
@@ -28,7 +28,7 @@
     "bugs": "https://github.com/kaayru/jquery-autoclear/issues",
     "homepage": "https://github.com/kaayru/jquery-autoclear",
     "docs": "https://github.com/kaayru/jquery-autoclear",
-    "download": "http://code.kaayru.com/#autoclear",
+    "download": "https://github.com/kaayru/jquery-autoclear/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.5"
     }
