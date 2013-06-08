@@ -25,10 +25,10 @@
             "url": "http://www.opensource.org/licenses/mit-license.php"
         }
     ],
-    "bugs": "https://github.com/jquery/jquery-autoclear/issues",
-    "homepage": "https://github.com/jquery/jquery-autoclear",
-    "docs": "https://github.com/jquery/jquery-autoclear",
-    "download": "http://code.jquery.com/#autoclear",
+    "bugs": "https://github.com/kaayru/jquery-autoclear/issues",
+    "homepage": "https://github.com/kaayru/jquery-autoclear",
+    "docs": "https://github.com/kaayru/jquery-autoclear",
+    "download": "http://code.kaayru.com/#autoclear",
     "dependencies": {
         "jquery": ">=1.5"
     }
