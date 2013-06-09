@@ -7,7 +7,7 @@
         "input",
         "form"
     ],
-    "version": "1.0.6",
+    "version": "1.0.8",
     "author": {
         "name": "Vincent Ballut",
         "url": "http://www.nobodymuch.com"
@@ -26,8 +26,9 @@
         }
     ],
     "bugs": "https://github.com/kaayru/jquery-autoclear/issues",
-    "homepage": "https://github.com/kaayru/jquery-autoclear",
-    "docs": "https://github.com/kaayru/jquery-autoclear",
+    "homepage": "http://www.nobodymuch.com/portfolio/jquery-autoclear",
+    "docs": "http://www.nobodymuch.com/portfolio/jquery-autoclear",
+    "demo": "http://www.nobodymuch.com/portfolio/jquery-autoclear",
     "download": "https://github.com/kaayru/jquery-autoclear/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.5"
