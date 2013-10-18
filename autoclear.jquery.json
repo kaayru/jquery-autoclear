@@ -26,9 +26,9 @@
         }
     ],
     "bugs": "https://github.com/kaayru/jquery-autoclear/issues",
-    "homepage": "http://www.nobodymuch.com/portfolio/jquery-autoclear",
-    "docs": "http://www.nobodymuch.com/portfolio/jquery-autoclear",
-    "demo": "http://www.nobodymuch.com/portfolio/jquery-autoclear",
+    "homepage": "http://kaayru.github.io/jquery-autoclear/",
+    "docs": "http://kaayru.github.io/jquery-autoclear/",
+    "demo": "http://kaayru.github.io/jquery-autoclear/",
     "download": "https://github.com/kaayru/jquery-autoclear/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.5"
