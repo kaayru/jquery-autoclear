@@ -163,6 +163,8 @@ pre, code {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
 
+  white-space: normal;
+  margin: 20px 0;
 
 
 }
@@ -362,6 +364,63 @@ Full-Width Styles
   background: #212121;
 }
 
+
+.example {
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+.example form {
+  background-color: #F3F3F3;
+}
+
+.example form input,
+.example form textarea {
+  border: 1px solid #ddd;
+  padding: 3px 10px;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ccc;
+}
+
+.example form input.focus_input,
+.example form textarea.focus_input {
+  color: #000;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.example form input.modified_input,
+.example form textarea.modified_input {
+  color: #000;
+}
+
+.example form textarea {
+  width: 509px;
+}
+
+.example form input.btn {
+  line-height: 24px;
+  margin-top: -4px;
+}
+
+.example p.title {
+  color: #ccc;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.error-wrapper,
+.alert-success {
+  display: none;
+}
+
+.error-wrapper .fieldname {
+  font-weight: bold;
+}
 
 
 /*******************************************************************************

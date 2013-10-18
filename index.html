@@ -7,6 +7,9 @@
     <meta name="description" content="jQuery Autoclear : A tiny plugin to clear input text fields" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/jquery-autoclear.js"></script>
+    <script src="javascripts/main.js"></script>
 
     <title>jQuery Autoclear</title>
   </head>
@@ -19,7 +22,7 @@
           <a id="forkme_banner" href="https://github.com/kaayru/jquery-autoclear">View on GitHub</a>
 
           <h1 id="project_title">jQuery Autoclear</h1>
-          <h2 id="project_tagline">A tiny plugin to clear input text fields</h2>
+          <h2 id="project_tagline">A tiny plugin to clear input text fields on focus</h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/kaayru/jquery-autoclear/zipball/master">Download this project as a .zip file</a>
@@ -31,14 +34,44 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <p>Content</p>
+        <p>A simple plugin to clear input text fields on focus, and manage default values.</p>
+
+        <h2><a name="setup" class="anchor" href="#setup"><span class="octicon octicon-link"></span></a>Setup</h2>
+
+        <ul>
+          <li>Load latest <a href="http://code.jquery.com/jquery-2.0.3.min.js">jQuery</a> library</li>
+          <li>Load <code>jquery-autoclear.min.js</code></li>
+          <li>Enable AutoClear on your input and textarea fields:</li>
+          <div class="highlight highlight-javascript"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'.autoclear'</span><span class="p">).</span><span class="nx">valideasy</span><span class="p">();</span></pre></div>
+          <li>Set default values for those fields. This is done via the title and value attributes. Those must be identical; this is how the plugin determines if the value has changed from the default value.</li>
+          <div class="highlight highlight-html"><pre>  <span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"autoclear"</span> <span class="na">id=</span><span class="s">"name"</span> <span class="na">title=</span><span class="s">"Your Name"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">value=</span><span class="s">"Your Name"</span> <span class="nt">/&gt;</span></div>
+        </ul>
+
+        <div class="example">
+          <p class="title">Example:</p>
+          <form>
+            <input type="text" class="autoclear" value="Your Name" title="Your Name" />
+            <input type="text" class="autoclear" value="Age" title="Age" />
+            <input type="text" class="autoclear" value="Email" title="Email" />
+            <textarea class="autoclear" title="Type your message here." cols="57">Type your message here.</textarea>
+          </form>
+      </div>
+
+      <h2><a name="setup" class="anchor" href="#styling"><span class="octicon octicon-link"></span></a>Styling</h2>
+
+      <p>The plugin adds two classes to your elements wether they are focused or modified by user :</p>
+
+      <p>On focus, a <code>.focus_input</code> class will be added to the field. When the user leaves the field, the <code>.focus_input</code> is removed and the script checks if the value has changed from the default value. If it has changed, a <code>.modified_input</code> class is added. Else, no extra class is added (default style).</p>
+
       </section>
+
+
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">jQuery Autoclear maintained by <a href="https://github.com/kaayru">kaayru</a></p>
+        <p class="copyright">jQuery Autoclear maintained by <a href="https://github.com/kaayru">Vincent Ballut</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
